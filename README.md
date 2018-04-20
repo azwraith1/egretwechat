@@ -1,2 +1,2 @@
 # egretwechat
-a game developed by egret wing declared on wechat development tools.
+a game developed by egret wing declared on wechat develop tools.
