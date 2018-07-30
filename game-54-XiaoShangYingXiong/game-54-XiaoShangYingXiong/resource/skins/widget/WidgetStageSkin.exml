@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WidgetStageSkin" width="148" height="318" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="stageGroup" height="366" width="198" x="0" y="0">
+		<e:Image id="fgImage" x="-14" y="-32" fillMode="clip" source="dtbg_png"/>
+		<e:Image x="0" y="14" source="stateimg_png"/>
+		<e:Image id="stageImage" source="stage_png" x="74" width="148" anchorOffsetX="74" anchorOffsetY="7" y="7"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+{
+	"name": "egret",
+	"version": "2.5.0",
+	"modules": [
+		{
+			"name": "underscore",
+			"description": "underscore",
+			"files": ["underscore.d.ts", "underscore.js"],
+			"root": "src"
+		}
+	]
+}

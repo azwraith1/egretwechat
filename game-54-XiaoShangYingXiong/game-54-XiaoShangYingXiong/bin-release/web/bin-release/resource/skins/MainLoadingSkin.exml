@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainLoadingSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="1124" left="-50" top="-50" right="-50" source="prebg_jpg"/>
+	<e:Group y="487" id="sCir1" width="33" height="35" x="341">
+	</e:Group>
+	<e:Group y="556" id="sCir2" width="45" height="45" x="341">
+	</e:Group>
+	<e:Rect fillColor="0xFFFFFF" y="571" width="400" height="2" id="pBg" x="120"/>
+	<e:Rect fillColor="0x49DC0F" y="571" width="400" height="2" id="pFront" x="120"/>
+	<e:Label id="gameNameLabel" y="585" x="0" verticalAlign="middle" textAlign="center" width="640" text="33"/>
+	<e:Label id="pTF" y="620" text="33" textAlign="center" width="640" verticalAlign="middle" x="0"/>
+	<e:Group y="570" width="0" height="0" id="logo" horizontalCenter="0">
+		<e:Image y="-131" x="-191" source="componey11_png"/>
+	</e:Group>
+</e:Skin>

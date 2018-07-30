@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlayerInfoSceneSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect y="0" height="1024" fillColor="0x000000" width="640" fillAlpha="0.68" x="0"/>
+	<e:Group id="mainGroup" height="1024" width="640" x="0" y="0">
+		<e:Image source="img_bg_png" y="90" x="45"/>
+		<e:Image source="img_bg_png" x="591" scaleX="-1" y="90"/>
+		<e:Image source="text_input1_png" y="282" x="110"/>
+		<e:Image source="text_input1_png" y="433" x="110"/>
+		<e:Image source="img_name_png" x="111" y="257"/>
+		<e:Image source="img_phone_png" x="111" y="410"/>
+		<e:Label text="姓名:" x="136" y="310" fontFamily="微软雅黑" size="24"/>
+		<e:Label y="465" text="电话:" fontFamily="微软雅黑" x="136" size="24"/>
+		<e:Image source="text_cxzy_png" y="638" x="182"/>
+		<e:Image source="text_zcwz_png" y="564" x="104"/>
+		<e:Button id="enterBtn" y="727" x="320" anchorOffsetX="102" anchorOffsetY="33">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_enter_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:EditableText y="310" height="24" id="nameInputText" width="284" size="24" x="220" textColor="0xFFFFFF" textAlign="left"/>
+		<e:EditableText y="465" height="24" id="phoneInputText" width="284" size="24" x="220" textColor="0xFFFFFF"/>
+		<e:Image source="text_hyzc_png" x="243" y="110"/>
+		<e:Button y="164" id="closeBtn" anchorOffsetX="102" anchorOffsetY="33" x="528">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_close1_png" source.down="btn_close2_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameOverSceneSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect y="0" fillAlpha="0.68" width="640" height="1024" fillColor="0x000000" x="0"/>
+	<e:Group id="mainGroup" height="1024" width="640" x="0" y="0">
+		<e:Image source="bg_zhuli_png" y="121" x="87"/>
+		<e:Image source="text_yxjs_png" y="147" x="231"/>
+		<e:Image source="text_jswz_png" y="287" x="202"/>
+		<e:Button id="restartBtn" y="654" x="342" anchorOffsetX="120" anchorOffsetY="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_zctz_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="friendBtn" y="548" anchorOffsetX="120" anchorOffsetY="41" x="342">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_yqhy_png"/>
+					<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="guanzhuBtn" y="758" anchorOffsetX="120" anchorOffsetY="41" x="342">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_gzwm_png"/>
+					<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="homeBtn" y="867" anchorOffsetX="120" anchorOffsetY="41" x="342">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_fhsy_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="scoreLabel" x="414" y="301" font="font_red_fnt" text="0"/>
+		<e:BitmapLabel id="rankLabel" y="362" text="0" x="410" font="font_green_fnt"/>
+		<e:Image source="img_xngf_png" x="200" y="403" width="314" height="35"/>
+	</e:Group>
+</e:Skin>

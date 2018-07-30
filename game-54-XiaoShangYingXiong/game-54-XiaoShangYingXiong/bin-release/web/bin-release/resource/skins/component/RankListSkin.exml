@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankListSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Rect y="0" fillAlpha="0.68" width="640" height="1024" x="0" fillColor="0x000000"/>
+	<e:Group y="0" id="mainGroup" width="640" height="1024" x="0">
+		<e:Image source="img_rankbg_png" y="29" x="8"/>
+		<e:Group id="dateGroup" height="1024" width="640" x="0" y="0">
+			<e:Image source="img_mc_png" x="115" y="210"/>
+			<e:Image source="img_rankfgx_png" x="213" y="202"/>
+			<e:Image source="img_rankfgx_png" y="202" x="432"/>
+			<e:Image source="img_rankfgx_png" y="202" x="330"/>
+			<e:Image source="img_jf_png" x="347" y="210"/>
+			<e:Image source="img_zl_png" x="443" y="210"/>
+			<e:Image source="img_nc_png" x="236" y="210"/>
+		</e:Group>
+		<e:Group id="zpmGroup" y="0" width="640" height="1024" x="0" visible="false">
+			<e:Image source="img_mc_png" y="210" x="115"/>
+			<e:Image source="img_rankfgx_png" y="202" x="213"/>
+			<e:Image source="img_rankfgx_png" y="202" x="432"/>
+			<e:Image source="img_rankfgx_png" y="202" x="330"/>
+			<e:Image source="img_jf_png" y="210" x="347"/>
+			<e:Image source="img_zl_png" y="210" x="443"/>
+			<e:Image source="img_nc_png" y="210" x="236"/>
+		</e:Group>
+		<e:Group id="zhuliGroup" y="0" width="640" height="1024" x="0" visible="false">
+			<e:Image y="214" x="398" source="img_zlcs_png"/>
+			<e:Image source="img_rankfgx_png" y="203" x="389"/>
+			<e:Image source="img_rankfgx_png" y="203" x="240"/>
+			<e:Image y="214" x="99" source="img_zlnc_png"/>
+			<e:Image y="214" x="247" source="img_zljf_png"/>
+		</e:Group>
+		<e:Button id="enterBtn" y="870" anchorOffsetX="120" anchorOffsetY="41" x="325">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_rankqd_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:ToggleButton id="zhuliBtn" y="129" x="372" skinName="buttons.WidgetRankBtn3Skin"/>
+		<e:ToggleButton id="zpmBtn" y="129" x="221" skinName="buttons.WidgetRankBtn2Skin"/>
+		<e:ToggleButton id="mrBtn" x="80" y="129" skinName="buttons.WidgetRankBtn1Skin"/>
+		<game:WidgetRankItem id="myDateItem" x="92" y="756" skinName="WidgetRankListItemSkin"/>
+		<e:Scroller y="274" scrollPolicyH="off" x="93" width="462" scrollPolicyV="auto" height="475" id="scroller" skinName="skins.ScrollerSkin">
+			<e:List id="listView" itemRendererSkinName="WidgetRankListItemSkin">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

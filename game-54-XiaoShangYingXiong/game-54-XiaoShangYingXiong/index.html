@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>眼神不好,坚持不了3步哦!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+	
+	<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+	<META HTTP-EQUIV="expires" CONTENT="0">
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/puremvc/puremvc.js" src-release="libs/modules/puremvc/puremvc.min.js"></script>
+	<script egret="lib" src="libs/modules/underscore/underscore.js" src-release="libs/modules/underscore/underscore.js"></script>
+	<script egret="lib" src="libs/modules/weixinapi/weixinapi.js" src-release="libs/modules/weixinapi/weixinapi.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/AppFacade.js"></script>
+	<script egret="game" src="bin-debug/egret/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/egret/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/egret/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/game/app/AppContainer.js"></script>
+	<script egret="game" src="bin-debug/game/command/ControllerPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/game/command/ModelPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/game/command/StartUpCommand.js"></script>
+	<script egret="game" src="bin-debug/game/command/ViewPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/game/constant/Command.js"></script>
+	<script egret="game" src="bin-debug/game/constant/Constant.js"></script>
+	<script egret="game" src="bin-debug/game/constant/Mediator.js"></script>
+	<script egret="game" src="bin-debug/game/constant/Notifier.js"></script>
+	<script egret="game" src="bin-debug/game/constant/Proxy.js"></script>
+	<script egret="game" src="bin-debug/game/model/AudioProxy.js"></script>
+	<script egret="game" src="bin-debug/game/model/NetProxy.js"></script>
+	<script egret="game" src="bin-debug/game/model/PlayerProxy.js"></script>
+	<script egret="game" src="bin-debug/game/model/WeixinProxy.js"></script>
+	<script egret="game" src="bin-debug/game/utils/HashMap.js"></script>
+	<script egret="game" src="bin-debug/game/utils/UIUtils.js"></script>
+	<script egret="game" src="bin-debug/game/utils/Utils.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIBaseLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIDescLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIFriendHelpLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIGameLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIGameOverLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIHelpSuccessLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIMainLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIMainLoadingLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIPlayerInfoLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIRankLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIRewardLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/component/UIShareLayer.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/ApplicationMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/FriendHelpMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/FriendHelpSuccessMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/GameDescMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/GameMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/GameOverMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/LoginMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/MainSceneMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/PlayerInfoMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/RankMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/RewardGiftMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/ShareMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mediator/TipsMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/UITips.js"></script>
+	<script egret="game" src="bin-debug/game/view/widget/HeroWidget.js"></script>
+	<script egret="game" src="bin-debug/game/view/widget/WidgetRankItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/widget/WidgetScreenAni.js"></script>
+	<script egret="game" src="bin-debug/game/view/widget/WidgetStage.js"></script>
+	<script egret="game" src="bin-debug/game/view/widget/WidgetStick.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="60"
+         data-content-width="640"
+         data-content-height="1024"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:20,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <script>
+		function isWeixn(){
+			var ua = navigator.userAgent.toUpperCase();
+			if(ua.match("MICROMESSENGER")) {
+				egret.runEgret({renderMode:"canvas"});
+			}else{
+				egret.runEgret({renderMode:"canvas"});
+				//alert('请使用微信浏览器')
+			}
+		}
+		isWeixn();
+	</script>
+</body>
+</html>

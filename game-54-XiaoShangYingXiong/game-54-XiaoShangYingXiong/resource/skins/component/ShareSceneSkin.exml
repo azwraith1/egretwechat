@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShareSceneSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect y="0" strokeAlpha="0.75" enabled="false" x="0" fillAlpha="0.75" width="640" height="1024" strokeColor="0x000000" id="backgroundTips"/>
+	<e:Image source="img_jiantou_png" x="525" y="2"/>
+	<e:Image source="img_share_png" x="278" y="100"/>
+	<e:Image source="img_logl_png" x="254" bottom="17"/>
+</e:Skin>

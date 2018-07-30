@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="buttons.MusicButtonSkin"
+        states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui" width.up="290" height.up="287">
+	<e:Image x="0" y="0" source="music2_png" source.up="music2_png" source.down="music2_png" source.disabled="music2_png" source.upAndSelected="music1_png" source.downAndSelected="music1_png" source.disabledAndSelected="music1_png"/>
+	<e:Image includeIn="up" x="0" y="0" source="music2_png"/>
+</e:Skin>

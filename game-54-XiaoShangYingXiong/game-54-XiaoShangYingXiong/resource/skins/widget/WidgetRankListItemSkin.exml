@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WidgetRankListItemSkin" width="462" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" id="rankItemBg" scale9Grid="28,18,6,7" width="462" height="52" x="0" source="img_rank_png"/>
+	<e:Group id="ptGroup" height="52" width="462" x="0" y="0" visible="false">
+		<e:Image source="rank1_png" y="-4" x="28" id="rankImage"/>
+		<e:Label id="nameLabel" y="16" textColor="0xFFFFFF" size="22" text="一二三四五.." fontFamily="微软雅黑" textAlign="center" width="120" height="22" x="117"/>
+		<e:Label x="257" y="16" textColor="0xFFFFFF" verticalAlign="middle" text="00000" fontFamily="微软雅黑" textAlign="center" width="65" size="22" height="22" id="scoreLabel"/>
+		<e:Label id="helpLabel" y="16" textColor="0xFFFFFF" verticalAlign="middle" text="000000" fontFamily="微软雅黑" textAlign="center" width="74" height="23" size="22" x="355"/>
+		<e:BitmapLabel x="36" y="16" id="rankLabel" textAlign="center" font="font_rank_fnt" text="10" letterSpacing="-10"/>
+	</e:Group>
+	<e:Group id="zhuliGroup" y="0" x="0" width="462" height="52" visible="false">
+		<e:Label id="zhuliNameLabel" y="17" textColor="0xFFFFFF" size="22" text="一二三四五.." fontFamily="微软雅黑" textAlign="center" width="120" height="22" x="25"/>
+		<e:Label id="zhuliScoreLabel" x="205" y="17" textColor="0xFFFFFF" size="22" text="00000" fontFamily="微软雅黑" textAlign="center" width="65" verticalAlign="middle" height="22"/>
+		<e:BitmapLabel id="zhuliCountLabel" x="346" y="14" font="font_red_fnt" text="33333" textAlign="center" letterSpacing="-5" width="90"/>
+	</e:Group>
+</e:Skin>

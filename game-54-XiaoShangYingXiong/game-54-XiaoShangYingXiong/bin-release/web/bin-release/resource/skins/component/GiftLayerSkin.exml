@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GiftLayerSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect y="0" fillAlpha="0.68" width="640" height="1024" fillColor="0x000000" x="0"/>
+	<e:Group y="0" id="mainGroup" width="640" height="1024" x="0">
+		<e:Image source="img_bg_png" y="90" x="45"/>
+		<e:Image source="img_bg_png" y="90" scaleX="-1" x="591"/>
+		<e:Button id="enterBtn" y="775" anchorOffsetX="102" anchorOffsetY="33" x="320">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_yhzc_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="110" x="243" source="text_jpcx_png"/>
+		<e:Image source="img_bg2_png" y="184" width="380" height="202" scale9Grid="34,15,5,8" x="130"/>
+		<e:Image source="img_zs_png" x="507" y="235"/>
+		<e:Image source="img_zs_png" y="336" x="133" scaleX="-1" scaleY="-1"/>
+		<e:Image source="img_zs2_png" x="486" y="187"/>
+		<e:Image source="img_zs2_png" y="384" x="153" scaleX="-1" scaleY="-1"/>
+		<e:Image source="img_tx_png" x="133" y="184"/>
+		<e:Image id="touxiangImg" height="120" width="120" x="160" y="206"/>
+		<e:Image source="text_input_png" x="307" y="195"/>
+		<e:Label id="nameLabel" x="358" y="193" size="22" fontFamily="微软雅黑" width="130" height="22"/>
+		<e:BitmapLabel id="scoreLabel" x="360" y="237" font="font_red_fnt" width="128" text="0"/>
+		<e:BitmapLabel id="zhuliLabel" y="277" font="font_red_fnt" x="360" width="128" text="0"/>
+		<e:BitmapLabel id="rankLabel" y="315" x="360" width="128" font="font_red_fnt" text="0"/>
+		<e:Image source="img_hjjl_png" y="403" x="109"/>
+		<e:Label id="record1" x="114" y="449" height="22" size="22" fontFamily="微软雅黑" width="410"/>
+		<e:Label id="record2" y="483" height="22" fontFamily="微软雅黑" x="113" width="410" size="22"/>
+		<e:Label id="record3" y="520" size="22" fontFamily="微软雅黑" width="413" height="22" x="114"/>
+		<e:Label id="record4" y="551" height="22" fontFamily="微软雅黑" x="113" width="383" size="22"/>
+		<e:Image source="text_cxwz_png" y="584" x="103"/>
+		<e:Image source="text_cxzy_png" y="709" x="182"/>
+		<e:Button id="closeBtn" y="156" anchorOffsetX="102" anchorOffsetY="33" x="530">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_close1_png" source.down="btn_close2_png"/>
+					<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainSceneSkin" width="640" height="1024" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mainbg_jpg" x="0" y="0"/>
+	<e:Image id="startBtn" y="688" x="340" source="uires_2_png" anchorOffsetX="233" anchorOffsetY="233"/>
+	<e:ToggleButton id="musicBtn" label="切换按钮" skinName="buttons.MusicButtonSkin" top="-61" x="427"/>
+	<e:Image source="img_logl_png" bottom="78" x="254"/>
+	<e:Button id="rankBtn" anchorOffsetX="154" anchorOffsetY="152" height="304" x="79" bottom="-152">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_phb_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="descBtn" anchorOffsetX="154" anchorOffsetY="152" x="576" bottom="-152">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_desc_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="img_main_png" x="200" bottom="46"/>
+</e:Skin>

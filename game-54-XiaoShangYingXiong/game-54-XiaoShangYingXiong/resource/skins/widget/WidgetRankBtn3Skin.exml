@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="buttons.WidgetRankBtn3Skin"
+        states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui" width.up="174" height.up="52">
+	<e:Image x="0" y="0" source="btn_zlmd1_png" source.up="btn_zlmd1_png" source.down="btn_zlmd1_png" source.disabled="btn_zlmd1_png" source.upAndSelected="btn_zlmd2_png" source.downAndSelected="btn_zlmd2_png" source.disabledAndSelected="btn_zlmd2_png"/>
+	<e:Image includeIn="up" x="0" y="0" source="btn_zlmd1_png"/>
+</e:Skin>
